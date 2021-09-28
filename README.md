@@ -7,6 +7,8 @@ This was the capstone assignment for the MIT full stack bootcamp. We were tasked
 Git Clone, npm init, install the dependencies, and run node index.js
 
 <h2>Screenshot</h2> <br>
+<a href="{https://youtu.be/jh2oqB8DBAU}" title="Short video displaying some functionality."></a>
+
 
 <h2>Technology Used</h2> <br>
 The MERN stack, including React, Express, Cors, and Dal.

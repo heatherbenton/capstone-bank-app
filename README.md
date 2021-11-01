@@ -12,7 +12,7 @@ Git Clone, npm init, install the dependencies, and run node index.js
 Quick YouTube screen capture showing some functionality: https://youtu.be/jh2oqB8DBAU
 
 <h2>Technology Used</h2> <br>
-The MERN stack, including React, Express, Cors, and Dal.
+The MERN stack, as well as AWS Amplify, Firebase, Bootstrap, and a data abstraction layer.
 
 <h2>Features</h2> <br>
 Responsive navbar, animated gradient background, and functioning forms such as create account, login, and deposit. I would like to add/improve authentication and security, as well as make the card forms more responsive and centered. 

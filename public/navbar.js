@@ -2,7 +2,7 @@ function NavBar() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 			<a className="navbar-brand" href="#">
-				BadBank
+				Third Coast Bank
 			</a>
 			<button
 				className="navbar-toggler"
@@ -42,11 +42,14 @@ function NavBar() {
 							Balance
 						</a>
 					</li>
+
+					{/* 
 					<li className="nav-item">
 						<a className="nav-link" href="#/alldata/">
 							AllData
 						</a>
 					</li>
+				*/}
 				</ul>
 			</div>
 		</nav>

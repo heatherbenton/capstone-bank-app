@@ -8,9 +8,9 @@ function Spa() {
 						users: [
 							{
 								name: "",
-								email: "",
-								password: "",
-								balance: { Number },
+								email: "user@mit.edu",
+								password: "secret",
+								balance: 1000,
 							},
 						],
 					}}

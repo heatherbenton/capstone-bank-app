@@ -4,7 +4,7 @@ function CreateAccount() {
 
 	return (
 		<Card
-			bgcolor="info"
+			bgcolor="primary"
 			header="Create Account"
 			status={status}
 			body={
@@ -21,13 +21,13 @@ function CreateAccount() {
 function CreateMsg(props) {
 	return (
 		<>
-			<h5>Success! You have created a new account.</h5>
+			<h5>Success</h5>
 			<button
 				type="submit"
 				className="btn btn-light"
 				onClick={() => props.setShow(true)}
 			>
-				Add another account
+				Add another account?
 			</button>
 		</>
 	);
@@ -37,11 +37,15 @@ function CreateForm(props) {
 	const [name, setName] = React.useState("");
 	const [email, setEmail] = React.useState("");
 	const [password, setPassword] = React.useState("");
-	const ctx = React.useContext(UserContext);
 
 	function handle() {
 		console.log(name, email, password);
-		ctx.users.push({ name, email, password });
+		const url = `/account/create/${name}/${email}/${password}`;
+		(async () => {
+			var res = await fetch(url);
+			var data = await res.json();
+			console.log(data);
+		})();
 		props.setShow(false);
 	}
 
